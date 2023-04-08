@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 void main()
 {
@@ -8,5 +7,6 @@ void main()
     scanf("%d",&n);
     s=pow((n),2);
     printf("Square:%d",s);
-    getch();
 }
+
+//read about getch() https://www.scaler.com/topics/getch-in-c/
